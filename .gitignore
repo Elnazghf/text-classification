@@ -1,0 +1,66 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea*
+
+# 1
+*/data/
+*__pycache__*
+*/20/model/checkpoint
+*/20/model/default.ckpt.meta
+*/20/model/default.ckpt.index
+
+# 2
+*log/
+*data/
+
+# TensorBoard
+*events.out.tfevents*
+
+# NodeJS
+*node_modules/
+
+# Notebook
+.ipynb_checkpoints/
+
+# File Extension
+*.ckpt*
+*.zip
+*.7z
+*.pyc
